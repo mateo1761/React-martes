@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import Navegacion from './src/navegacion';
 import {
   SafeAreaView,
   ScrollView,
@@ -27,7 +28,7 @@ import {
 
 const App = () => {
   return(
-    <Text>Hola desde App</Text>
+    <Navegacion/>
   )
 }
 
