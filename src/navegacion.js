@@ -12,7 +12,7 @@ import PrestamosPantalla from "./pantalla/prestamos";
 //Crear objeto tabs
 const tab = createBottomTabNavigator();
 //Funcion para crear los botones de navegacion
-function myTabs(){
+function MyTabs(){
     return(
         <tab.Navigator>
             <tab.Screen name="Inicio" component={InicioPantalla} />
@@ -26,7 +26,7 @@ function myTabs(){
 export default function Navegacion(){
     return(
         <NavigationContainer>
-            <myTabs/>
+            <MyTabs/>
         </NavigationContainer>
     );
 }
